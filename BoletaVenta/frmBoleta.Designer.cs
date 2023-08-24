@@ -40,30 +40,30 @@
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
-            this.cboProducto = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.dhsh = new System.Windows.Forms.GroupBox();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cboProducto = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.lvEstadisticas = new System.Windows.Forms.ListView();
+            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.lvDetalle = new System.Windows.Forms.ListView();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-            this.cboProducto.SuspendLayout();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.dhsh.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -168,54 +168,48 @@
             this.txtCedula.Size = new System.Drawing.Size(228, 23);
             this.txtCedula.TabIndex = 11;
             // 
-            // cboProducto
+            // dhsh
             // 
-            this.cboProducto.BackColor = System.Drawing.Color.Bisque;
-            this.cboProducto.Controls.Add(this.btnAgregar);
-            this.cboProducto.Controls.Add(this.txtCantidad);
-            this.cboProducto.Controls.Add(this.txtPrecio);
-            this.cboProducto.Controls.Add(this.label11);
-            this.cboProducto.Controls.Add(this.label10);
-            this.cboProducto.Controls.Add(this.comboBox1);
-            this.cboProducto.Controls.Add(this.label9);
-            this.cboProducto.Location = new System.Drawing.Point(73, 194);
-            this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(725, 112);
-            this.cboProducto.TabIndex = 12;
-            this.cboProducto.TabStop = false;
-            this.cboProducto.Text = "DATOS DEL PRODUCTO";
+            this.dhsh.BackColor = System.Drawing.Color.MistyRose;
+            this.dhsh.Controls.Add(this.btnAgregar);
+            this.dhsh.Controls.Add(this.txtCantidad);
+            this.dhsh.Controls.Add(this.txtPrecio);
+            this.dhsh.Controls.Add(this.label11);
+            this.dhsh.Controls.Add(this.label10);
+            this.dhsh.Controls.Add(this.cboProducto);
+            this.dhsh.Controls.Add(this.label9);
+            this.dhsh.Location = new System.Drawing.Point(73, 194);
+            this.dhsh.Name = "dhsh";
+            this.dhsh.Size = new System.Drawing.Size(725, 112);
+            this.dhsh.TabIndex = 12;
+            this.dhsh.TabStop = false;
+            this.dhsh.Text = "DATOS DEL PRODUCTO";
             // 
-            // label9
+            // btnAgregar
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(44, 28);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 15);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "DESCRIPCION";
+            this.btnAgregar.BackColor = System.Drawing.Color.Crimson;
+            this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAgregar.Location = new System.Drawing.Point(566, 61);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 6;
+            this.btnAgregar.Text = "AGREGAR";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // comboBox1
+            // txtCantidad
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "PS5 + 1 MANDO DS5",
-            "PS4(1TB) + 1 MANDO DS4",
-            "MANDO PS5/DS5",
-            "MANDO PS4/DS4"});
-            this.comboBox1.Location = new System.Drawing.Point(22, 62);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "(SELECCIONE)";
+            this.txtCantidad.Location = new System.Drawing.Point(402, 61);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(100, 23);
+            this.txtCantidad.TabIndex = 5;
             // 
-            // label10
+            // txtPrecio
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(263, 28);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 15);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "PRECIO";
+            this.txtPrecio.Location = new System.Drawing.Point(240, 62);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(100, 23);
+            this.txtPrecio.TabIndex = 4;
             // 
             // label11
             // 
@@ -226,28 +220,38 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "CANTIDAD";
             // 
-            // txtPrecio
+            // label10
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(240, 62);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 23);
-            this.txtPrecio.TabIndex = 4;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(263, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(47, 15);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "PRECIO";
             // 
-            // txtCantidad
+            // cboProducto
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(402, 61);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 23);
-            this.txtCantidad.TabIndex = 5;
+            this.cboProducto.FormattingEnabled = true;
+            this.cboProducto.Items.AddRange(new object[] {
+            "PS5 + 1 MANDO DS5",
+            "PS4(1TB) + 1 MANDO DS4",
+            "MANDO PS5/ DS5",
+            "MANDO PS4/ DS4"});
+            this.cboProducto.Location = new System.Drawing.Point(22, 62);
+            this.cboProducto.Name = "cboProducto";
+            this.cboProducto.Size = new System.Drawing.Size(121, 23);
+            this.cboProducto.TabIndex = 1;
+            this.cboProducto.Text = "(SELECCIONE)";
+            this.cboProducto.SelectedIndexChanged += new System.EventHandler(this.cboProducto_SelectedIndexChanged);
             // 
-            // btnAgregar
+            // label9
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(566, 61);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 6;
-            this.btnAgregar.Text = "AGREGAR";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(44, 28);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(81, 15);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "DESCRIPCION";
             // 
             // lvEstadisticas
             // 
@@ -264,14 +268,37 @@
             this.lvEstadisticas.UseCompatibleStateImageBehavior = false;
             this.lvEstadisticas.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "NUM.BOLETA";
+            this.columnHeader5.Width = 120;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "FECHA";
+            this.columnHeader6.Width = 120;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "TOTAL PRODUCTOS";
+            this.columnHeader7.Width = 240;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "MONTO TOTAL";
+            this.columnHeader8.Width = 240;
+            // 
             // btnRegistrar
             // 
+            this.btnRegistrar.BackColor = System.Drawing.Color.Crimson;
+            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnRegistrar.Location = new System.Drawing.Point(72, 447);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(126, 23);
             this.btnRegistrar.TabIndex = 15;
             this.btnRegistrar.Text = "REGISTRAR BOLETA";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label12
             // 
@@ -316,15 +343,6 @@
             this.lvDetalle.UseCompatibleStateImageBehavior = false;
             this.lvDetalle.View = System.Windows.Forms.View.Details;
             // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(73, 620);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 20;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "CANTIDAD";
@@ -345,31 +363,22 @@
             this.columnHeader4.Text = "IMPORTE";
             this.columnHeader4.Width = 120;
             // 
-            // columnHeader5
+            // btnSalir
             // 
-            this.columnHeader5.Text = "NUM.BOLETA";
-            this.columnHeader5.Width = 120;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "FECHA";
-            this.columnHeader6.Width = 120;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "TOTAL PRODUCTOS";
-            this.columnHeader7.Width = 240;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "MONTO TOTAL";
-            this.columnHeader8.Width = 240;
+            this.btnSalir.BackColor = System.Drawing.Color.Crimson;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSalir.Location = new System.Drawing.Point(73, 620);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 20;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // frmBoleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(851, 659);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.lvDetalle);
@@ -378,7 +387,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.lvEstadisticas);
-            this.Controls.Add(this.cboProducto);
+            this.Controls.Add(this.dhsh);
             this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtFecha);
@@ -393,8 +402,9 @@
             this.Controls.Add(this.label1);
             this.Name = "frmBoleta";
             this.Text = "Contol de venta";
-            this.cboProducto.ResumeLayout(false);
-            this.cboProducto.PerformLayout();
+            this.Load += new System.EventHandler(this.frmBoleta_Load);
+            this.dhsh.ResumeLayout(false);
+            this.dhsh.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -414,13 +424,13 @@
         private TextBox txtFecha;
         private Label label8;
         private TextBox txtCedula;
-        private GroupBox cboProducto;
+        private GroupBox dhsh;
         private Button btnAgregar;
         private TextBox txtCantidad;
         private TextBox txtPrecio;
         private Label label11;
         private Label label10;
-        private ComboBox comboBox1;
+        private ComboBox cboProducto;
         private Label label9;
         private ListView lvEstadisticas;
         private Button btnRegistrar;
