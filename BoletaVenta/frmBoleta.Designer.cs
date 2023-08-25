@@ -28,386 +28,404 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.txtCliente = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtFecha = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtCedula = new System.Windows.Forms.TextBox();
-            this.dhsh = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cboProducto = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lvEstadisticas = new System.Windows.Forms.ListView();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lvDetalle = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.dhsh.SuspendLayout();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            lblNumero = new Label();
+            txtCliente = new TextBox();
+            label5 = new Label();
+            label6 = new Label();
+            txtDireccion = new TextBox();
+            label7 = new Label();
+            txtFecha = new TextBox();
+            label8 = new Label();
+            txtCedula = new TextBox();
+            dhsh = new GroupBox();
+            btnAgregar = new Button();
+            txtCantidad = new TextBox();
+            txtPrecio = new TextBox();
+            label11 = new Label();
+            label10 = new Label();
+            cboProducto = new ComboBox();
+            label9 = new Label();
+            lvEstadisticas = new ListView();
+            columnHeader5 = new ColumnHeader();
+            columnHeader6 = new ColumnHeader();
+            columnHeader7 = new ColumnHeader();
+            columnHeader8 = new ColumnHeader();
+            btnRegistrar = new Button();
+            label12 = new Label();
+            label13 = new Label();
+            lblTotal = new Label();
+            lvDetalle = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            columnHeader4 = new ColumnHeader();
+            btnSalir = new Button();
+            dhsh.SuspendLayout();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(272, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CONTROL DE VENTA";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(402, 65);
+            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(389, 51);
+            label1.TabIndex = 0;
+            label1.Text = "CONTROL DE VENTA";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(578, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "RUC 51004402";
+            label2.AutoSize = true;
+            label2.Location = new Point(977, 26);
+            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(170, 32);
+            label2.TabIndex = 1;
+            label2.Text = "RUC 51004402";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(578, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "BOLETA DE VENTA";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(957, 80);
+            label3.Margin = new Padding(6, 0, 6, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(240, 36);
+            label3.TabIndex = 2;
+            label3.Text = "BOLETA DE VENTA";
             // 
             // lblNumero
             // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(578, 61);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(37, 15);
-            this.lblNumero.TabIndex = 3;
-            this.lblNumero.Text = "00000";
+            lblNumero.AutoSize = true;
+            lblNumero.Location = new Point(957, 135);
+            lblNumero.Margin = new Padding(6, 0, 6, 0);
+            lblNumero.Name = "lblNumero";
+            lblNumero.Size = new Size(79, 32);
+            lblNumero.TabIndex = 3;
+            lblNumero.Text = "00000";
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(146, 105);
-            this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(253, 23);
-            this.txtCliente.TabIndex = 4;
+            txtCliente.Location = new Point(155, 229);
+            txtCliente.Margin = new Padding(6, 6, 6, 6);
+            txtCliente.Name = "txtCliente";
+            txtCliente.Size = new Size(466, 39);
+            txtCliente.TabIndex = 4;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(72, 108);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 15);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "CLIENTE";
+            label5.AutoSize = true;
+            label5.Location = new Point(18, 235);
+            label5.Margin = new Padding(6, 0, 6, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(101, 32);
+            label5.TabIndex = 5;
+            label5.Text = "CLIENTE";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(72, 151);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "DIRECCION";
+            label6.AutoSize = true;
+            label6.Location = new Point(18, 327);
+            label6.Margin = new Padding(6, 0, 6, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(134, 32);
+            label6.TabIndex = 6;
+            label6.Text = "DIRECCION";
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(146, 151);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(253, 23);
-            this.txtDireccion.TabIndex = 7;
+            txtDireccion.Location = new Point(155, 327);
+            txtDireccion.Margin = new Padding(6, 6, 6, 6);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(466, 39);
+            txtDireccion.TabIndex = 7;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(448, 108);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 15);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "FECHA";
+            label7.AutoSize = true;
+            label7.Location = new Point(716, 235);
+            label7.Margin = new Padding(6, 0, 6, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(85, 32);
+            label7.TabIndex = 8;
+            label7.Text = "FECHA";
             // 
             // txtFecha
             // 
-            this.txtFecha.Location = new System.Drawing.Point(504, 105);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(228, 23);
-            this.txtFecha.TabIndex = 9;
+            txtFecha.Enabled = false;
+            txtFecha.Location = new Point(820, 229);
+            txtFecha.Margin = new Padding(6, 6, 6, 6);
+            txtFecha.Name = "txtFecha";
+            txtFecha.Size = new Size(420, 39);
+            txtFecha.TabIndex = 9;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(448, 151);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 15);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "CEDULA";
+            label8.AutoSize = true;
+            label8.Location = new Point(716, 327);
+            label8.Margin = new Padding(6, 0, 6, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(101, 32);
+            label8.TabIndex = 10;
+            label8.Text = "CEDULA";
             // 
             // txtCedula
             // 
-            this.txtCedula.Location = new System.Drawing.Point(504, 143);
-            this.txtCedula.Name = "txtCedula";
-            this.txtCedula.Size = new System.Drawing.Size(228, 23);
-            this.txtCedula.TabIndex = 11;
+            txtCedula.Location = new Point(820, 310);
+            txtCedula.Margin = new Padding(6, 6, 6, 6);
+            txtCedula.Name = "txtCedula";
+            txtCedula.Size = new Size(420, 39);
+            txtCedula.TabIndex = 11;
             // 
             // dhsh
             // 
-            this.dhsh.BackColor = System.Drawing.Color.MistyRose;
-            this.dhsh.Controls.Add(this.btnAgregar);
-            this.dhsh.Controls.Add(this.txtCantidad);
-            this.dhsh.Controls.Add(this.txtPrecio);
-            this.dhsh.Controls.Add(this.label11);
-            this.dhsh.Controls.Add(this.label10);
-            this.dhsh.Controls.Add(this.cboProducto);
-            this.dhsh.Controls.Add(this.label9);
-            this.dhsh.Location = new System.Drawing.Point(73, 194);
-            this.dhsh.Name = "dhsh";
-            this.dhsh.Size = new System.Drawing.Size(725, 112);
-            this.dhsh.TabIndex = 12;
-            this.dhsh.TabStop = false;
-            this.dhsh.Text = "DATOS DEL PRODUCTO";
+            dhsh.BackColor = Color.MistyRose;
+            dhsh.Controls.Add(btnAgregar);
+            dhsh.Controls.Add(txtCantidad);
+            dhsh.Controls.Add(txtPrecio);
+            dhsh.Controls.Add(label11);
+            dhsh.Controls.Add(label10);
+            dhsh.Controls.Add(cboProducto);
+            dhsh.Controls.Add(label9);
+            dhsh.Location = new Point(20, 408);
+            dhsh.Margin = new Padding(6, 6, 6, 6);
+            dhsh.Name = "dhsh";
+            dhsh.Padding = new Padding(6, 6, 6, 6);
+            dhsh.Size = new Size(1346, 250);
+            dhsh.TabIndex = 12;
+            dhsh.TabStop = false;
+            dhsh.Text = "DATOS DEL PRODUCTO";
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.Crimson;
-            this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAgregar.Location = new System.Drawing.Point(566, 61);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 6;
-            this.btnAgregar.Text = "AGREGAR";
-            this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            btnAgregar.BackColor = Color.Crimson;
+            btnAgregar.ForeColor = SystemColors.ControlLightLight;
+            btnAgregar.Location = new Point(1051, 130);
+            btnAgregar.Margin = new Padding(6, 6, 6, 6);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(139, 49);
+            btnAgregar.TabIndex = 6;
+            btnAgregar.Text = "AGREGAR";
+            btnAgregar.UseVisualStyleBackColor = false;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(402, 61);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 23);
-            this.txtCantidad.TabIndex = 5;
+            txtCantidad.Location = new Point(747, 130);
+            txtCantidad.Margin = new Padding(6, 6, 6, 6);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(182, 39);
+            txtCantidad.TabIndex = 5;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(240, 62);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 23);
-            this.txtPrecio.TabIndex = 4;
+            txtPrecio.Enabled = false;
+            txtPrecio.Location = new Point(446, 132);
+            txtPrecio.Margin = new Padding(6, 6, 6, 6);
+            txtPrecio.Name = "txtPrecio";
+            txtPrecio.Size = new Size(182, 39);
+            txtPrecio.TabIndex = 4;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(416, 28);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 15);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "CANTIDAD";
+            label11.AutoSize = true;
+            label11.Location = new Point(773, 60);
+            label11.Margin = new Padding(6, 0, 6, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(129, 32);
+            label11.TabIndex = 3;
+            label11.Text = "CANTIDAD";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(263, 28);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 15);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "PRECIO";
+            label10.AutoSize = true;
+            label10.Location = new Point(488, 60);
+            label10.Margin = new Padding(6, 0, 6, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(92, 32);
+            label10.TabIndex = 2;
+            label10.Text = "PRECIO";
             // 
             // cboProducto
             // 
-            this.cboProducto.FormattingEnabled = true;
-            this.cboProducto.Items.AddRange(new object[] {
-            "PS5 + 1 MANDO DS5",
-            "PS4(1TB) + 1 MANDO DS4",
-            "MANDO PS5/ DS5",
-            "MANDO PS4/ DS4"});
-            this.cboProducto.Location = new System.Drawing.Point(22, 62);
-            this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(121, 23);
-            this.cboProducto.TabIndex = 1;
-            this.cboProducto.Text = "(SELECCIONE)";
-            this.cboProducto.SelectedIndexChanged += new System.EventHandler(this.cboProducto_SelectedIndexChanged);
+            cboProducto.FormattingEnabled = true;
+            cboProducto.Items.AddRange(new object[] { "PS5 + 1 MANDO DS5", "PS4(1TB) + 1 MANDO DS4", "MANDO PS5/ DS5", "MANDO PS4/ DS4" });
+            cboProducto.Location = new Point(41, 132);
+            cboProducto.Margin = new Padding(6, 6, 6, 6);
+            cboProducto.Name = "cboProducto";
+            cboProducto.Size = new Size(221, 40);
+            cboProducto.TabIndex = 1;
+            cboProducto.Text = "(SELECCIONE)";
+            cboProducto.SelectedIndexChanged += cboProducto_SelectedIndexChanged;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(44, 28);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 15);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "DESCRIPCION";
+            label9.AutoSize = true;
+            label9.Location = new Point(82, 60);
+            label9.Margin = new Padding(6, 0, 6, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(161, 32);
+            label9.TabIndex = 0;
+            label9.Text = "DESCRIPCION";
             // 
             // lvEstadisticas
             // 
-            this.lvEstadisticas.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
-            this.lvEstadisticas.GridLines = true;
-            this.lvEstadisticas.Location = new System.Drawing.Point(71, 506);
-            this.lvEstadisticas.Name = "lvEstadisticas";
-            this.lvEstadisticas.Size = new System.Drawing.Size(727, 97);
-            this.lvEstadisticas.TabIndex = 14;
-            this.lvEstadisticas.UseCompatibleStateImageBehavior = false;
-            this.lvEstadisticas.View = System.Windows.Forms.View.Details;
+            lvEstadisticas.Columns.AddRange(new ColumnHeader[] { columnHeader5, columnHeader6, columnHeader7, columnHeader8 });
+            lvEstadisticas.GridLines = true;
+            lvEstadisticas.Location = new Point(15, 1066);
+            lvEstadisticas.Margin = new Padding(6, 6, 6, 6);
+            lvEstadisticas.Name = "lvEstadisticas";
+            lvEstadisticas.Size = new Size(1347, 199);
+            lvEstadisticas.TabIndex = 14;
+            lvEstadisticas.UseCompatibleStateImageBehavior = false;
+            lvEstadisticas.View = View.Details;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "NUM.BOLETA";
-            this.columnHeader5.Width = 120;
+            columnHeader5.Text = "NUM.BOLETA";
+            columnHeader5.Width = 120;
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "FECHA";
-            this.columnHeader6.Width = 120;
+            columnHeader6.Text = "FECHA";
+            columnHeader6.Width = 120;
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "TOTAL PRODUCTOS";
-            this.columnHeader7.Width = 240;
+            columnHeader7.Text = "TOTAL PRODUCTOS";
+            columnHeader7.Width = 240;
             // 
             // columnHeader8
             // 
-            this.columnHeader8.Text = "MONTO TOTAL";
-            this.columnHeader8.Width = 240;
+            columnHeader8.Text = "MONTO TOTAL";
+            columnHeader8.Width = 240;
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.Crimson;
-            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnRegistrar.Location = new System.Drawing.Point(72, 447);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(126, 23);
-            this.btnRegistrar.TabIndex = 15;
-            this.btnRegistrar.Text = "REGISTRAR BOLETA";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            btnRegistrar.BackColor = Color.Crimson;
+            btnRegistrar.ForeColor = SystemColors.ControlLightLight;
+            btnRegistrar.Location = new Point(18, 948);
+            btnRegistrar.Margin = new Padding(6, 6, 6, 6);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(234, 60);
+            btnRegistrar.TabIndex = 15;
+            btnRegistrar.Text = "REGISTRAR BOLETA";
+            btnRegistrar.UseVisualStyleBackColor = false;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(72, 488);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(176, 15);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "RESUMEN REGISTRO DE BOLETA";
+            label12.AutoSize = true;
+            label12.Location = new Point(17, 1025);
+            label12.Margin = new Padding(6, 0, 6, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(358, 32);
+            label12.TabIndex = 16;
+            label12.Text = "RESUMEN REGISTRO DE BOLETA";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(578, 456);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 15);
-            this.label13.TabIndex = 17;
-            this.label13.Text = "TOTAL";
+            label13.AutoSize = true;
+            label13.Location = new Point(957, 978);
+            label13.Margin = new Padding(6, 0, 6, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(80, 32);
+            label13.TabIndex = 17;
+            label13.Text = "TOTAL";
             // 
             // lblTotal
             // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTotal.Location = new System.Drawing.Point(648, 456);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(66, 21);
-            this.lblTotal.TabIndex = 18;
-            this.lblTotal.Text = "label14";
+            lblTotal.AutoSize = true;
+            lblTotal.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTotal.Location = new Point(1087, 978);
+            lblTotal.Margin = new Padding(6, 0, 6, 0);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(128, 45);
+            lblTotal.TabIndex = 18;
+            lblTotal.Text = "label14";
             // 
             // lvDetalle
             // 
-            this.lvDetalle.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
-            this.lvDetalle.GridLines = true;
-            this.lvDetalle.Location = new System.Drawing.Point(73, 321);
-            this.lvDetalle.Name = "lvDetalle";
-            this.lvDetalle.Size = new System.Drawing.Size(725, 120);
-            this.lvDetalle.TabIndex = 19;
-            this.lvDetalle.UseCompatibleStateImageBehavior = false;
-            this.lvDetalle.View = System.Windows.Forms.View.Details;
+            lvDetalle.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            lvDetalle.GridLines = true;
+            lvDetalle.Location = new Point(20, 679);
+            lvDetalle.Margin = new Padding(6, 6, 6, 6);
+            lvDetalle.Name = "lvDetalle";
+            lvDetalle.Size = new Size(1343, 262);
+            lvDetalle.TabIndex = 19;
+            lvDetalle.UseCompatibleStateImageBehavior = false;
+            lvDetalle.View = View.Details;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "CANTIDAD";
-            this.columnHeader1.Width = 120;
+            columnHeader1.Text = "CANTIDAD";
+            columnHeader1.Width = 120;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "DESCRIPCION";
-            this.columnHeader2.Width = 360;
+            columnHeader2.Text = "DESCRIPCION";
+            columnHeader2.Width = 360;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "PREC.UNI";
-            this.columnHeader3.Width = 120;
+            columnHeader3.Text = "PREC.UNI";
+            columnHeader3.Width = 120;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "IMPORTE";
-            this.columnHeader4.Width = 120;
+            columnHeader4.Text = "IMPORTE";
+            columnHeader4.Width = 120;
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Crimson;
-            this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSalir.Location = new System.Drawing.Point(73, 620);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 20;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.BackColor = Color.Crimson;
+            btnSalir.ForeColor = SystemColors.ControlLightLight;
+            btnSalir.Location = new Point(19, 1310);
+            btnSalir.Margin = new Padding(6, 6, 6, 6);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(139, 46);
+            btnSalir.TabIndex = 20;
+            btnSalir.Text = "SALIR";
+            btnSalir.UseVisualStyleBackColor = false;
             // 
             // frmBoleta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(851, 659);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.lvDetalle);
-            this.Controls.Add(this.lblTotal);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.lvEstadisticas);
-            this.Controls.Add(this.dhsh);
-            this.Controls.Add(this.txtCedula);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtFecha);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtDireccion);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtCliente);
-            this.Controls.Add(this.lblNumero);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "frmBoleta";
-            this.Text = "Contol de venta";
-            this.Load += new System.EventHandler(this.frmBoleta_Load);
-            this.dhsh.ResumeLayout(false);
-            this.dhsh.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.SkyBlue;
+            ClientSize = new Size(1401, 1399);
+            Controls.Add(btnSalir);
+            Controls.Add(lvDetalle);
+            Controls.Add(lblTotal);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(btnRegistrar);
+            Controls.Add(lvEstadisticas);
+            Controls.Add(dhsh);
+            Controls.Add(txtCedula);
+            Controls.Add(label8);
+            Controls.Add(txtFecha);
+            Controls.Add(label7);
+            Controls.Add(txtDireccion);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(txtCliente);
+            Controls.Add(lblNumero);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Margin = new Padding(6, 6, 6, 6);
+            Name = "frmBoleta";
+            Text = "Contol de venta";
+            Load += frmBoleta_Load;
+            dhsh.ResumeLayout(false);
+            dhsh.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

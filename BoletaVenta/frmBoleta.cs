@@ -12,15 +12,13 @@ namespace BoletaVenta
 {
     public partial class frmBoleta : Form
 
-        
-
     {
 
         //variables globales
         int num;
 
         //Objeto de la clase boleta
-        Boleta objB=new();
+        Boleta objB = new();
 
 
         public frmBoleta()
@@ -47,8 +45,8 @@ namespace BoletaVenta
 
         private void cboProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            objB.descripcionProducto=cboProducto.Text;
-            txtPrecio.Text=objB.DeterminaPrecio().ToString("C");
+            objB.descripcionProducto = cboProducto.Text;
+            txtPrecio.Text = objB.DeterminaPrecio().ToString("C");
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -64,8 +62,8 @@ namespace BoletaVenta
                 CapturaDatos();
 
                 //Determinar los calculos de la aplicacion
-                double precio=objB.DeterminaPrecio();
-                double importe=objB.CalcularImporte();
+                double precio = objB.DeterminaPrecio();
+                double importe = objB.CalcularImporte();
 
                 //imprimir detalle de la venta
                 ImprimirDetalle(precio, importe);
@@ -87,14 +85,14 @@ namespace BoletaVenta
             for (int i = 0; i < lvDetalle.Items.Count; i++)
             {
                 total += double.Parse(lvDetalle.Items[i].SubItems[3].Text);
-                
+
             }
             return total;
         }
 
         private void ImprimirDetalle(double precio, double importe)
         {
-            ListViewItem fila=new ListViewItem(objB.cantidadProducto.ToString());
+            ListViewItem fila = new ListViewItem(objB.cantidadProducto.ToString());
             fila.SubItems.Add(objB.descripcionProducto);
             fila.SubItems.Add(precio.ToString("0.00"));
             fila.SubItems.Add(importe.ToString("0.00"));
@@ -108,9 +106,9 @@ namespace BoletaVenta
             objB.numero = int.Parse(lblNumero.Text);
             objB.nombreCliente = txtCliente.Text;
             objB.direccionCliente = txtDireccion.Text;
-            objB.cedulaCliente=txtCedula.Text;
+            objB.cedulaCliente = txtCedula.Text;
             objB.fechaRegistro = DateTime.Parse(txtFecha.Text);
-            objB.descripcionProducto=cboProducto.Text;
+            objB.descripcionProducto = cboProducto.Text;
             objB.cantidadProducto = int.Parse(txtCantidad.Text);
 
         }
@@ -139,11 +137,11 @@ namespace BoletaVenta
                 cboProducto.Focus();
                 return "Descripcion del producto";
             }
-            else if(txtCantidad.Text.Trim().Length == 0)
+            else if (txtCantidad.Text.Trim().Length == 0)
             {
                 txtCantidad.Focus();
                 return "cantidad comprada";
-            }    
+            }
             return "";
         }
 
