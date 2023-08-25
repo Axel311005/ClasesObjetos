@@ -43,6 +43,8 @@ namespace PromedioNotas
                 txtNota2.Enabled = false;
                 txtNota3.Enabled = false;
                 txtNota4.Enabled = false;
+                txtNombre.Enabled = false;
+                btnCalcular.Enabled = false;
             }
             else
             {
@@ -124,12 +126,15 @@ namespace PromedioNotas
             txtPromedio.Clear();
             txtNotaBaja.Clear();
             txtCondicion.Clear();
-            txtNombre.Focus();
+            
 
             txtNota1.Enabled = true;
             txtNota2.Enabled = true;
             txtNota3.Enabled = true;
             txtNota4.Enabled = true;
+            txtNombre.Enabled = true;
+            btnCalcular.Enabled = true;
+            txtNombre.Focus();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
